@@ -105,13 +105,13 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\CD\Desktop\Programming\OpenGL\OpenGL\Libraries\include\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\Libraries\include\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\CD\Desktop\Programming\OpenGL\OpenGL\Libraries\lib\lib-vc2022</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\Libraries\lib\lib-vc2022</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -123,18 +123,19 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalIncludeDirectories>C:\Users\CD\Desktop\Programming\OpenGL\OpenGL\Libraries\include\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\Libraries\include\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\CD\Desktop\Programming\OpenGL\OpenGL\Libraries\lib\lib-vc2022</AdditionalLibraryDirectories>
-      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib;opengl32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\Libraries\lib\lib-vc2022</AdditionalLibraryDirectories>
+      <AdditionalDependencies>$(CoreLibraryDependencies);%(AdditionalDependencies);glfw3.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />
     <ClCompile Include="..\Libraries\src\src\glad.c" />
+    <ClCompile Include="glad.c" />
     <ClCompile Include="OpenGL.cpp" />
   </ItemGroup>
   <ItemGroup>
