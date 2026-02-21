@@ -134,13 +134,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\code\main.cpp" />
-    <ClCompile Include="..\Libraries\src\src\glad.c" />
+    <ClCompile Include="EBO.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="OpenGL.cpp" />
+    <ClCompile Include="shaderClass.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Libraries\include\include\glad\glad.h" />
     <ClInclude Include="..\Libraries\include\include\KHR\khrplatform.h" />
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.frag" />
+    <None Include="default.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

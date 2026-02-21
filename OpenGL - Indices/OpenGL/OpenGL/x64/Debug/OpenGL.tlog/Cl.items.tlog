@@ -1,4 +1,6 @@
 C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\code\main.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\main.obj
-C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\Libraries\src\src\glad.c;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\glad.obj
+C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\EBO.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\EBO.obj
 C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\glad.c;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\glad.obj
-C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\OpenGL.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\OpenGL.obj
+C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\shaderClass.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\shaderClass.obj
+C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\VAO.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\VAO.obj
+C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\VBO.cpp;C:\Users\CD\Desktop\Programming\OpenGL-Introduction\OpenGL - Indices\OpenGL\OpenGL\x64\Debug\VBO.obj
